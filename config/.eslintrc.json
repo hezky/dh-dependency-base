@@ -4,13 +4,13 @@
     "mocha": true,
     "node": true
   },
-  "extends": ["prettier", "eslint:recommended"],
+  "extends": ["eslint:recommended", "plugin:sonarjs/recommended", "prettier"],
   "parser": "babel-eslint",
   "parserOptions": {
     "ecmaVersion": 2019,
     "source": "module"
   },
-  "plugins": ["prettier"],
+  "plugins": ["prettier", "sonarjs"],
   "rules": {
     "no-unused-vars": [
       "error",
