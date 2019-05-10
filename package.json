@@ -24,11 +24,12 @@
     "@babel/preset-env": "^7.4.4",
     "@babel/register": "^7.4.4",
     "babel-eslint": "^10.0.1",
-    "chai": "^4.2.0",
+    "dotenv": "^8.0.0",
     "eslint": "^5.16.0",
     "eslint-config-prettier": "^4.2.0",
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-sonarjs": "^0.3.0",
+    "chai": "^4.2.0",
     "mocha": "^6.1.4",
     "prettier": "^1.17.0"
   },
@@ -38,8 +39,5 @@
   "license": "MIT",
   "main": "src/js/index.js",
   "name": "dh-dependency-base",
-  "version": "0.0.7",
-  "devDependencies": {
-    "dotenv": "^8.0.0"
-  }
+  "version": "0.0.7"
 }
