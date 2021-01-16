@@ -10,7 +10,7 @@
     "ecmaVersion": 2019,
     "source": "module"
   },
-  "plugins": ["prettier", "sonarjs"],
+  "plugins": ["prettier"],
   "rules": {
     "no-unused-vars": [
       "error",
