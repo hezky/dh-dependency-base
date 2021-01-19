@@ -1,24 +1,24 @@
 # dh-dependency-base
 
-- [Readme in Czech](doc/README-czech.md)
+[Readme in Czech (Readme v Češtině)](doc/README-czech.md)
 
 Basic settings with packages and settings.
 
 ## Detail
 Sets basic dependencies packages:
-- babel = javascript compiler
-- core-js = includes polyfills for ECMAScript up to 2021
-- dotenv = loads environment variables from .env file
-- eslint = an AST-based pattern checker for JavaScript
-- chai = BDD/TDD assertion library for node.js and the browser. Test framework agnostic
-- mocha = simple, flexible, fun test framework
-- prettier = is an opinionated code formatter
+* [babel](https://github.com/babel/babel) - javascript compiler
+* [core-js](https://github.com/zloirock/core-js) - includes polyfills for ECMAScript up to 2021
+* [dotenv](https://github.com/motdotla/dotenv) - loads environment variables from .env file
+* [eslint](https://github.com/eslint/eslint) - an AST-based pattern checker for JavaScript
+* [chai](https://github.com/chaijs/chai) - BDD/TDD assertion library for node.js and the browser. Test framework agnostic
+* [mocha](https://github.com/mochajs/mocha) - simple, flexible, fun test framework
+* [prettier](https://github.com/prettier/prettier) - is an opinionated code formatter
 
 The basic settings for babel and eslint are in the folder "./config/" directory.
 
 ## Usage
 
-### in file "./package.json" (settings projekt) add dependency
+in file "[./package.json](https://github.com/hezky/dh-dependency-base/blob/master/package.json)" (settings projekt) add dependency
 ```javascript
 {
   ...
@@ -29,14 +29,14 @@ The basic settings for babel and eslint are in the folder "./config/" directory.
 }
 ```
 
-### in file "./babelrc" (settings babel)
+in file "[./babelrc](https://github.com/hezky/dh-dependency-base/blob/master/config/.babelrc)" add a dependency on dh-dependency-base babel
 ```javascript
 {
   "extends": "./node_modules/dh-dependency-base/config/.babelrc"
 }
 ```
 
-### in file "./eslintrc.json" (settings eslint)
+in file "[./eslintrc.json](https://github.com/hezky/dh-dependency-base/blob/master/config/.eslintrc.json)"add a dependency on dh-dependency-base eslint
 ```javascript
 {
   "extends": "./node_modules/dh-dependency-base/config/.eslintrc.json"
