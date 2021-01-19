@@ -18,7 +18,7 @@ Základní nastavení babel a eslint je v adresáři "[./config/](https://github
 
 ## Použití
 
-v souboru "[./package.json](https://github.com/hezky/dh-dependency-base/blob/master/package.json)" (nastavení projektu) přidejte závislost
+v souboru "[./package.json](https://github.com/hezky/dh-dependency-base/blob/master/package.json)" (nastavení projektu) přidejte závislost na balíček "[dh-dependency-base](https://github.com/hezky/dh-dependency-base)"
 ```javascript
 {
   ...
@@ -29,14 +29,14 @@ v souboru "[./package.json](https://github.com/hezky/dh-dependency-base/blob/mas
 }
 ```
 
-v souboru "[./babelrc](https://github.com/hezky/dh-dependency-base/blob/master/config/.babelrc)" přidejte závislost na dh-dependency-base babel
+v souboru "[./babelrc](https://github.com/hezky/dh-dependency-base/blob/master/config/.babelrc)" přidejte závislost na "[dh-dependency-base](https://github.com/hezky/dh-dependency-base)" na babel
 ```javascript
 {
   "extends": "./node_modules/dh-dependency-base/config/.babelrc"
 }
 ```
 
-v souboru "[./eslintrc.json](https://github.com/hezky/dh-dependency-base/blob/master/config/.eslintrc.json)" přidejte závislost na dh-dependency-base eslint
+v souboru "[./eslintrc.json](https://github.com/hezky/dh-dependency-base/blob/master/config/.eslintrc.json)" přidejte závislost na "[dh-dependency-base](https://github.com/hezky/dh-dependency-base)" na eslint
 ```javascript
 {
   "extends": "./node_modules/dh-dependency-base/config/.eslintrc.json"
