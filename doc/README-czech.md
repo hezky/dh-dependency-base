@@ -1,6 +1,6 @@
 # dh-dependency-base
 
-[Použití v anglickém jazyce (Readme in English)](../README.md)
+[Použití v anglickém jazyce (Readme in English)](https://github.com/hezky/dh-dependency-base/blob/master/README.md)
 
 Základní nastavení s balíčky a nastavením.
 

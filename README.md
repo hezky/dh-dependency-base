@@ -1,6 +1,6 @@
 # dh-dependency-base
 
-[Readme in Czech (Readme v Češtině)](doc/README-czech.md)
+[Readme in Czech (Readme v Češtině)](https://github.com/hezky/dh-dependency-base/blob/master/doc/README-czech.md)
 
 Basic settings with packages and settings.
 
