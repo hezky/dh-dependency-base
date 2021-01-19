@@ -18,7 +18,7 @@ The basic settings for babel and eslint are in the folder "./config/" directory.
 
 ## Usage
 
-in file "[./package.json](https://github.com/hezky/dh-dependency-base/blob/master/package.json)" add the "[dh-dependency-base](https://github.com/hezky/dh-dependency-base)" dependency
+in file "[./package.json](https://github.com/hezky/dh-dependency-base/blob/master/package.json)" add a dependency on the "[dh-dependency-base](https://github.com/hezky/dh-dependency-base)" package
 ```javascript
 {
   ...
@@ -29,14 +29,14 @@ in file "[./package.json](https://github.com/hezky/dh-dependency-base/blob/maste
 }
 ```
 
-in file "[./babelrc](https://github.com/hezky/dh-dependency-base/blob/master/config/.babelrc)" add the "[dh-dependency-base](https://github.com/hezky/dh-dependency-base)" dependency to babel
+in file "[./babelrc](https://github.com/hezky/dh-dependency-base/blob/master/config/.babelrc)" add a dependency on the "[dh-dependency-base](https://github.com/hezky/dh-dependency-base)" to babel
 ```javascript
 {
   "extends": "./node_modules/dh-dependency-base/config/.babelrc"
 }
 ```
 
-in file "[./eslintrc.json](https://github.com/hezky/dh-dependency-base/blob/master/config/.eslintrc.json)" add the "[dh-dependency-base](https://github.com/hezky/dh-dependency-base)" dependency to eslint
+in file "[./eslintrc.json](https://github.com/hezky/dh-dependency-base/blob/master/config/.eslintrc.json)" add a dependency on the "[dh-dependency-base](https://github.com/hezky/dh-dependency-base)" to eslint
 ```javascript
 {
   "extends": "./node_modules/dh-dependency-base/config/.eslintrc.json"

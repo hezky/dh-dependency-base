@@ -18,7 +18,7 @@ Základní nastavení babel a eslint je v adresáři "[./config/](https://github
 
 ## Použití
 
-v souboru "[./package.json](https://github.com/hezky/dh-dependency-base/blob/master/package.json)" (nastavení projektu) přidejte závislost na balíček "[dh-dependency-base](https://github.com/hezky/dh-dependency-base)"
+v souboru "[./package.json](https://github.com/hezky/dh-dependency-base/blob/master/package.json)" přidejte závislost na balíček "[dh-dependency-base](https://github.com/hezky/dh-dependency-base)"
 ```javascript
 {
   ...
