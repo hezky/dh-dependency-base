@@ -1,13 +1,13 @@
 {
   "env": {
-    "es6": true,
+    "es2021": true,
     "mocha": true,
     "node": true
   },
-  "extends": ["eslint:recommended", "prettier", "prettier/prettier"],
+  "extends": ["eslint:recommended", "prettier", "plugin:prettier/recommended"],
   "parser": "@babel/eslint-parser",
   "parserOptions": {
-    "ecmaVersion": 2020,
+    "ecmaVersion": 2021,
     "source": "module"
   },
   "plugins": ["prettier"],
