@@ -28,14 +28,14 @@ $ npm install --save @dh-js/dependency-base
 V souboru nastavení babel "[./babelrc](https://github.com/hezky/dh-dependency-base/blob/master/config/.babelrc)" přidejte závislost na balíček "[@dh-js/dependency-base](https://github.com/hezky/dh-dependency-base)".
 ```javascript
 {
-  "extends": "./node_modules/dh-dependency-base/config/.babelrc"
+  "extends": "./node_modules/@dh-js/dependency-base/config/.babelrc"
 }
 ```
 
 V souboru nastavení eslint "[./eslintrc.json](https://github.com/hezky/dh-dependency-base/blob/master/config/.eslintrc.json)" přidejte závislost na balíček "[@dh-js/dependency-base](https://github.com/hezky/dh-dependency-base)" na eslint.
 ```javascript
 {
-  "extends": "./node_modules/dh-dependency-base/config/.eslintrc.json"
+  "extends": "./node_modules/@dh-js/dependency-base/config/.eslintrc.json"
 }
 ```
 
