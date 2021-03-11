@@ -36,6 +36,9 @@
   ],
   "license": "MIT",
   "main": "src/js/index.js",
-  "name": "dh-dependency-base",
+  "name": "@dh-js/dependency-base",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "0.0.38"
 }
