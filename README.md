@@ -18,7 +18,7 @@ The basic settings for babel and eslint are in the folder "./config/" directory.
 
 ## Usage
 
-Install the ** @dh-js/dependency-base ** package in your project.
+Install the **@dh-js/dependency-base** package in your project.
 In the project directory, run the command:
 ```javascript
 $ npm install --save @dh-js/dependency-base
