@@ -36,6 +36,6 @@
   ],
   "license": "MIT",
   "main": "src/js/index.js",
-  "name": "@dh-js/dependency-base",
+  "name": "@dh-dependency/base",
   "version": "0.0.48"
 }
