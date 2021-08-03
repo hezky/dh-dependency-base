@@ -1,5 +1,8 @@
 {
   "author": "David Hezky",
+  "bugs": {
+    "url": "https://github.com/hezky/dh-dependency-base/issues"
+  },
   "description": "base dependency",
   "dependencies": {
     "@babel/cli": "^7.14.8",
@@ -35,6 +38,7 @@
     "config"
   ],
   "license": "MIT",
+  "homepage": "https://github.com/hezky/dh-dependency-base#readme",
   "main": "src/js/index.js",
   "name": "@dh-dependency/base",
   "repository": {
