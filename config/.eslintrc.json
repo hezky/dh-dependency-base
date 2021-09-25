@@ -10,7 +10,7 @@
     "ecmaVersion": "latest",
     "source": "module"
   },
-  "plugins": ["@babel", "prettier"],
+  "plugins": ["prettier"],
   "rules": {
     "no-unused-vars": [
       "error",
