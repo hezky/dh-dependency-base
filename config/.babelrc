@@ -10,6 +10,7 @@
   ],
   "plugins": [
     ["@babel/plugin-proposal-class-properties", { "loose": false }],
+    "@babel/plugin-proposal-class-static-block",
     ["@babel/plugin-proposal-decorators", { "legacy": true }],
     "@babel/plugin-proposal-do-expressions",
     "@babel/plugin-syntax-dynamic-import",
@@ -24,7 +25,8 @@
     "@babel/plugin-proposal-numeric-separator",
     ["@babel/plugin-proposal-optional-chaining", { "loose": false }],
     ["@babel/plugin-proposal-pipeline-operator", { "proposal": "minimal" }],
-    ["@babel/plugin-transform-classes", {"loose": true}],
-    "@babel/plugin-proposal-throw-expressions"
+    "@babel/plugin-proposal-private-property-in-object",
+    "@babel/plugin-proposal-throw-expressions",
+    ["@babel/plugin-transform-classes", {"loose": true}]
   ]
 }
